@@ -10,6 +10,14 @@ ThermalChangeProject/[Bb]uilds/
 ThermalChangeProject/[Ll]ogs/
 ThermalChangeProject/[Mm]emoryCaptures/
 
+CarrotProject/[Ll]ibrary/
+CarrotProject/[Tt]emp/
+CarrotProject/[Oo]bj/
+CarrotProject/[Bb]uild/
+CarrotProject/[Bb]uilds/
+CarrotProject/[Ll]ogs/
+CarrotProject/[Mm]emoryCaptures/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
