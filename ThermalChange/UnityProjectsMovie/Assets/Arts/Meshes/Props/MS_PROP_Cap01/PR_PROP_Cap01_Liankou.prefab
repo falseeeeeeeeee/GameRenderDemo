@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8789413008015726284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8264549670928895094}
+  - component: {fileID: 4980505881596052435}
+  - component: {fileID: 7132216368611866393}
+  - component: {fileID: 8447395408265915280}
+  m_Layer: 0
+  m_Name: PR_PROP_Cap01_Liankou
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8264549670928895094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8789413008015726284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4980505881596052435
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8789413008015726284}
+  m_Mesh: {fileID: 7348566077220616359, guid: 51657dd2a0f4384488bc8bc122cf18cd, type: 3}
+--- !u!23 &7132216368611866393
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8789413008015726284}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 15ab23a5f58c62f49bfbcd8f91e7595e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8447395408265915280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8789413008015726284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef9e91249010494ab038ae5c19e1740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomDatas:
+  - Name: _BaseColor
+    Type: 0
+    RandomRange: {x: 0.05, y: 0.35}
+    textures: []
+  - Name: _NormalScale
+    Type: 1
+    RandomRange: {x: 0.8, y: 1.2}
+    textures: []
+  - Name: _Smoothness
+    Type: 1
+    RandomRange: {x: 0.8, y: 1}
+    textures: []
+  - Name: _Metallic
+    Type: 1
+    RandomRange: {x: 0.8, y: 1}
+    textures: []
+  - Name: _CoatMask
+    Type: 1
+    RandomRange: {x: 0.5, y: 1}
+    textures: []
+  - Name: _CoatSmoothness
+    Type: 1
+    RandomRange: {x: 0.5, y: 1}
+    textures: []
+  - Name: _NoiseHighFreq
+    Type: 1
+    RandomRange: {x: 3, y: 40}
+    textures: []
+  - Name: _NoiseLowFreq
+    Type: 1
+    RandomRange: {x: -10, y: 10}
+    textures: []
+  - Name: _NoiseHighAmp
+    Type: 1
+    RandomRange: {x: -1, y: 1}
+    textures: []
+  - Name: _NoiseLowAmp
+    Type: 1
+    RandomRange: {x: -2, y: 2}
+    textures: []
+  - Name: _Shift
+    Type: 1
+    RandomRange: {x: -2, y: 2}
+    textures: []
+  - Name: _Gloss
+    Type: 1
+    RandomRange: {x: 0.001, y: 0.25}
+    textures: []
+  - Name: _SpecularInt
+    Type: 1
+    RandomRange: {x: 0.5, y: 2}
+    textures: []
+  - Name: _FlowUVDirAndStrength
+    Type: 2
+    RandomRange: {x: 0.01, y: 1}
+    textures: []
+  - Name: _RampMap
+    Type: 3
+    RandomRange: {x: 0.01, y: 1}
+    textures:
+    - {fileID: 2800000, guid: f2a43f3b99743e7449ccec50ba44a833, type: 3}
+    - {fileID: 2800000, guid: ef68e49bc8542f14198e5e83f2c0616e, type: 3}
+    - {fileID: 2800000, guid: 56db9feb132194b48a609318ebfce174, type: 3}
+    - {fileID: 2800000, guid: 2cd70c5efd9297843b3f07138f741b13, type: 3}
+    - {fileID: 2800000, guid: 60f5168b52e76ac4b86446db367ad60f, type: 3}
+    - {fileID: 2800000, guid: 1a993cb151c6f044bb85e0e2f2cb04df, type: 3}
+  - Name: _RampMapAdHue
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _RampMapAdSaturation
+    Type: 1
+    RandomRange: {x: 0, y: 2}
+    textures: []
+  - Name: _RampStrength
+    Type: 1
+    RandomRange: {x: 0, y: 2}
+    textures: []
+  - Name: _RampXAxisOffset
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _RampXAxisNoiseStrength
+    Type: 1
+    RandomRange: {x: 0, y: 0.5}
+    textures: []
+  - Name: _FresnelPower
+    Type: 1
+    RandomRange: {x: 0.5, y: 8}
+    textures: []
+  - Name: _UVNoiseScale
+    Type: 1
+    RandomRange: {x: 50, y: 500}
+    textures: []
+  - Name: _UVNoiseTilingInStrength
+    Type: 1
+    RandomRange: {x: 0.2, y: 1}
+    textures: []
+  - Name: _UVNoiseTilingOutStrength
+    Type: 1
+    RandomRange: {x: 0.001, y: 0.2}
+    textures: []
+  - Name: _UVNoiseOffsetStrength
+    Type: 1
+    RandomRange: {x: 0.001, y: 0.2}
+    textures: []
+  - Name: _VoronoiMap
+    Type: 3
+    RandomRange: {x: 0, y: 0}
+    textures:
+    - {fileID: 2800000, guid: 8e288bcb302c11b48ae34b53317d5256, type: 3}
+    - {fileID: 2800000, guid: 500cdbcd8a79fd144899849ecc08eed6, type: 3}
+  - Name: _VoronoiMapTilingInAndOut
+    Type: 2
+    RandomRange: {x: 0.5, y: 20}
+    textures: []
+  - Name: _VoronoiMapInStrength
+    Type: 1
+    RandomRange: {x: 0.5, y: 1}
+    textures: []
+  - Name: _ScratchesMap
+    Type: 3
+    RandomRange: {x: 0, y: 0}
+    textures:
+    - {fileID: 2800000, guid: 81a15c2f67c13a14b87a601e4c4ae8ab, type: 3}
+    - {fileID: 2800000, guid: 9a944ecdc207012499c7f8b07ebb4d1d, type: 3}
+    - {fileID: 2800000, guid: cb344d33a58ef0d4a9185ecdc5c8bd63, type: 3}
+    - {fileID: 2800000, guid: 82bae60235911ac419324687f485a3f0, type: 3}
+    - {fileID: 2800000, guid: 883058bbea3b2fa428a26d38320660f5, type: 3}
+    - {fileID: 2800000, guid: 352f6728f77c0af49b0cedf117b7cea0, type: 3}
+  - Name: _ScratchesMapTiling
+    Type: 2
+    RandomRange: {x: 1, y: 16}
+    textures: []
+  - Name: _ScratchesMapStrength
+    Type: 1
+    RandomRange: {x: 0.5, y: 1.5}
+    textures: []
+  - Name: _MaskInHard
+    Type: 1
+    RandomRange: {x: 0.1, y: 0.48}
+    textures: []
+  - Name: _MaskInSize
+    Type: 1
+    RandomRange: {x: 2.5, y: 16}
+    textures: []
+  - Name: _CenterNoiseScale
+    Type: 1
+    RandomRange: {x: 50, y: 500}
+    textures: []
+  - Name: _CapInRampMap
+    Type: 3
+    RandomRange: {x: 0, y: 0}
+    textures:
+    - {fileID: 2800000, guid: 544335d52066ca347b35db15357251b5, type: 3}
+    - {fileID: 2800000, guid: d97ecffe8b6a26b4ebdc78373895382c, type: 3}
+    - {fileID: 2800000, guid: 0374ef575760a02479953cc0d1a424cb, type: 3}
+    - {fileID: 2800000, guid: 6b1206ac52819374fb13ee9963030f9c, type: 3}
+    - {fileID: 2800000, guid: 21738988aaf8ade45b29865690002e25, type: 3}
+    - {fileID: 2800000, guid: 974440807ece0774088b4a1874f22069, type: 3}
+  - Name: _CapInRampMapAdHue
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _CapInRampMapAdSaturation
+    Type: 1
+    RandomRange: {x: 0, y: 2}
+    textures: []
+  - Name: _CapInRampMapAdBright
+    Type: 1
+    RandomRange: {x: 0, y: 2}
+    textures: []
+  - Name: _CapInNormalStrength
+    Type: 1
+    RandomRange: {x: -1, y: 1}
+    textures: []
+  - Name: _CapInSmoothnessStrength
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _CapInMetallicStrength
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _CapInCoatSmoothnessStrength
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _MaskSideHard
+    Type: 1
+    RandomRange: {x: 0.2, y: 0.49}
+    textures: []
+  - Name: _MaskSideSize
+    Type: 1
+    RandomRange: {x: 0, y: 0.3}
+    textures: []
+  - Name: _EdgtDistortionTilingAndLevel
+    Type: 2
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _EdgeDistortionNoiseScale
+    Type: 1
+    RandomRange: {x: 5, y: 100}
+    textures: []
+  - Name: _EdgeDistortionSideStrength
+    Type: 1
+    RandomRange: {x: 0, y: 0.1}
+    textures: []
+  - Name: _CapSideRampMap
+    Type: 3
+    RandomRange: {x: 0, y: 1}
+    textures:
+    - {fileID: 2800000, guid: 1f8acacef20863a4ca8c3510e3ae4b67, type: 3}
+    - {fileID: 2800000, guid: 32640f81d8b1b59428e5db4fac9cd4fe, type: 3}
+    - {fileID: 2800000, guid: 48abb3f39429f354ba37cf0a13a7e630, type: 3}
+    - {fileID: 2800000, guid: 404da95705216cd4da5e143dfb48e731, type: 3}
+    - {fileID: 2800000, guid: e1364555cb583f94d913ae32c9a0af7f, type: 3}
+  - Name: _CapSideRampStrength
+    Type: 1
+    RandomRange: {x: 0.8, y: 1}
+    textures: []
+  - Name: _CapSideNormalStrength
+    Type: 1
+    RandomRange: {x: 0, y: 2}
+    textures: []
+  - Name: _CapSideSmoothnessStrength
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _CapSideMetallicStrength
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _CapSideCoatSmoothnessStrength
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _MaskOutHard
+    Type: 1
+    RandomRange: {x: 0.4, y: 0.49}
+    textures: []
+  - Name: _MaskOutSize
+    Type: 1
+    RandomRange: {x: 1.3, y: 3.5}
+    textures: []
+  - Name: _EdgeDistortionOutStrength
+    Type: 1
+    RandomRange: {x: 0, y: 0.03}
+    textures: []
+  - Name: _CapOutNoiseScale
+    Type: 1
+    RandomRange: {x: 100, y: 800}
+    textures: []
+  - Name: _CapOutNoiseStrength
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _CapOutNormalStrength
+    Type: 1
+    RandomRange: {x: 0, y: 0}
+    textures: []
+  - Name: _CapOutSmoothnessStrength
+    Type: 1
+    RandomRange: {x: 0, y: 1}
+    textures: []
+  - Name: _CapOutMetallicStrength
+    Type: 1
+    RandomRange: {x: 0, y: 0.1}
+    textures: []
+  - Name: _CapOutCoatSmoothnessStrength
+    Type: 1
+    RandomRange: {x: 0, y: 0.1}
+    textures: []
+  - Name: _SealMapScale
+    Type: 1
+    RandomRange: {x: 3, y: 20}
+    textures: []
+  - Name: _SealMapNormalStrength
+    Type: 1
+    RandomRange: {x: 0.2, y: 2}
+    textures: []

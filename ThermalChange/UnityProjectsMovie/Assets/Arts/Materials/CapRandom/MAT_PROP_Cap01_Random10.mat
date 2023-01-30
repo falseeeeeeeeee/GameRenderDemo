@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_PROP_Cap01_Random10
+  m_Shader: {fileID: -6465566751694194690, guid: 713da4390da62b14b951267bdb164cf0,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisotropyKajiyaKay_63bf5b010a7f4f6bab3c1cef3306f675_NoiseMap_3472324296:
+        m_Texture: {fileID: 2800000, guid: 6f18732c0a2cf794ea94d4aa93043b9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CapInRampMap:
+        m_Texture: {fileID: 2800000, guid: 974440807ece0774088b4a1874f22069, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CapSideRampMap:
+        m_Texture: {fileID: 2800000, guid: 32640f81d8b1b59428e5db4fac9cd4fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoatMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 70ac061e50917454ba2fbc870bc840a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: eeaea029ef518ea479f44cf8cb923620, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 2800000, guid: ef68e49bc8542f14198e5e83f2c0616e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3dd2277a1ff840c7bac58f0f515ad7a5_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 6f18732c0a2cf794ea94d4aa93043b9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e36b06860bcf40bc8e6aa1f9aa2736cd_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 6f18732c0a2cf794ea94d4aa93043b9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScratchesMap:
+        m_Texture: {fileID: 2800000, guid: 352f6728f77c0af49b0cedf117b7cea0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SealMap:
+        m_Texture: {fileID: 2800000, guid: b8ed13fc8c4c024459df643c130504f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VoronoiMap:
+        m_Texture: {fileID: 2800000, guid: 500cdbcd8a79fd144899849ecc08eed6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _BlackGradientSwitch: 1
+    - _BlackOffset: 0.28
+    - _Blend: 0
+    - _CapInCoatSmoothnessStrength: 0.86237895
+    - _CapInMetallicStrength: 0.41628975
+    - _CapInNormalStrength: -0.81265473
+    - _CapInRampMapAdBright: 1.6081831
+    - _CapInRampMapAdHue: 0.761677
+    - _CapInRampMapAdSaturation: 0.27607107
+    - _CapInSmoothnessStrength: 0.44141275
+    - _CapOutCoatSmoothnessStrength: 0.026457472
+    - _CapOutMetallicStrength: 0.0711297
+    - _CapOutNoiseScale: 506.81744
+    - _CapOutNoiseStrength: 0.21452367
+    - _CapOutNormalStrength: 0
+    - _CapOutSmoothnessStrength: 0.06260753
+    - _CapSideCoatSmoothnessStrength: 0.662
+    - _CapSideMetallicStrength: 1
+    - _CapSideNormalStrength: 0.9328877
+    - _CapSideRampStrength: 0.97774065
+    - _CapSideSmoothnessStrength: 0.34287268
+    - _CastShadows: 1
+    - _CenterNoiseScale: 107.470245
+    - _CoatMask: 0.9
+    - _CoatSmoothness: 0.9400401
+    - _Cull: 0
+    - _DstBlend: 0
+    - _EdgeDistortionDownStrength: 0.01
+    - _EdgeDistortionNoiseScale: 46.395306
+    - _EdgeDistortionOutStrength: 0.02020082
+    - _EdgeDistortionSideStrength: 0.022190679
+    - _EdgeDistortionUPStrength: 0.04
+    - _EdgeDownDistortion: 0.01
+    - _EdgeUPDistortion: 0.04
+    - _FresnelPower: 5.980665
+    - _Gloss: 0.11335093
+    - _MaskInHard: 0.3760466
+    - _MaskInSize: 14.98332
+    - _MaskOutHard: 0.48080528
+    - _MaskOutSize: 1.6907616
+    - _MaskSideHard: 0.414
+    - _MaskSideSize: 0.059
+    - _Metallic: 0.99494797
+    - _NoiseHighAmp: -0.103286386
+    - _NoiseHighFreq: 4.655383
+    - _NoiseLowAmp: 0.25658822
+    - _NoiseLowFreq: 6.3298564
+    - _NormalScale: 1.0871636
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RampMapAdHue: 0.8566165
+    - _RampMapAdSaturation: 0.7534088
+    - _RampStrength: 0.049862027
+    - _RampXAxisNoiseStrength: 0.47631305
+    - _RampXAxisOffset: 0.9169457
+    - _ReceiveShadows: 1
+    - _RedSwitch: 0
+    - _ScratchesMapStrength: 0.6430019
+    - _SealMapNormalStrength: 0.6140715
+    - _SealMapScale: 16.919014
+    - _Shift: -0.88878655
+    - _Shift1: 0
+    - _Shift2: 0
+    - _Smoothness: 0.9178915
+    - _SpecularInt: 1.4263208
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _UVNoiseOffsetStrength: 0.01
+    - _UVNoiseScale: 325.898
+    - _UVNoiseTilingInStrength: 1
+    - _UVNoiseTilingOutStrength: 0
+    - _VoronoiMapInStrength: 0.9141869
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BaseColor: {r: 0.07165534, g: 0.3306389, b: 0.2786525, a: 1}
+    - _CapOutColor: {r: 0.15094337, g: 0.09861157, b: 0.07618367, a: 1}
+    - _EdgtDistortionTilingAndLevel: {r: 0.10302055, g: 0.029348016, b: 0.23214376,
+        a: 0.7905445}
+    - _FlowUVDirAndStrength: {r: 0.51725614, g: 0.13496003, b: 0.23289035, a: 0.67964244}
+    - _ScratchesMapTiling: {r: 9.915218, g: 9.407471, b: 10.110197, a: 15.727988}
+    - _VoronoiMapTiling: {r: 2, g: 1.5, b: 0, a: 0}
+    - _VoronoiMapTilingInAndOut: {r: 16, g: 0.5, b: 20, a: 0.5}
+  m_BuildTextureStacks: []
+--- !u!114 &8551294436031631683
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
