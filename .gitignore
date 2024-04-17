@@ -2,21 +2,21 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-ThermalChangeProject/[Ll]ibrary/
-ThermalChangeProject/[Tt]emp/
-ThermalChangeProject/[Oo]bj/
-ThermalChangeProject/[Bb]uild/
-ThermalChangeProject/[Bb]uilds/
-ThermalChangeProject/[Ll]ogs/
-ThermalChangeProject/[Mm]emoryCaptures/
+*/[Ll]ibrary/
+*/[Tt]emp/
+*/[Oo]bj/
+*/[Bb]uild/
+*/[Bb]uilds/
+*/[Ll]ogs/
+*/[Mm]emoryCaptures/
 
-CarrotProject/[Ll]ibrary/
-CarrotProject/[Tt]emp/
-CarrotProject/[Oo]bj/
-CarrotProject/[Bb]uild/
-CarrotProject/[Bb]uilds/
-CarrotProject/[Ll]ogs/
-CarrotProject/[Mm]emoryCaptures/
+*/*/[Ll]ibrary/
+*/*/[Tt]emp/
+*/*/[Oo]bj/
+*/*/[Bb]uild/
+*/*/[Bb]uilds/
+*/*/[Ll]ogs/
+*/*/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
